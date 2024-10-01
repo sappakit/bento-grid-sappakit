@@ -1,0 +1,25 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/static/DMSans-Regular.ttf") format("truetype"),
+    url("./assets/fonts/static/DMSans-Medium.ttf") format("truetype")
+      url("./assets/fonts/static/DMSans-MediumItalic.ttf") format("truetype")
+      url("./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf")
+      format("truetype")
+      url("./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "DMSans";
+}
