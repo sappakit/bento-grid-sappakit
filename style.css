@@ -52,44 +52,44 @@ body {
   height: 100vh;
   gap: 2rem;
   padding: 5rem 9rem 5rem 9rem;
-} */
+}
 
 .create-section {
-  /* grid-area: create-section; */
+  grid-area: create-section;
   background-color: var(--secondary-neutral-color);
 }
 
 .heading-section {
-  /* grid-area: heading-section; */
+  grid-area: heading-section;
   background-color: var(--primary-accent-color);
 }
 
 .schedule-section {
-  /* grid-area: schedule-section; */
+  grid-area: schedule-section;
   background-color: var(--primary-neutral-color);
 }
 
 .write-content-section {
-  /* grid-area: write-content-section; */
+  grid-area: write-content-section;
   background-color: var(--secondary-accent-color);
 }
 
 .manage-section {
-  /* grid-area: manage-section; */
+  grid-area: manage-section;
   background-color: var(--tertiary-neutral-color);
 }
 
 .maintain-section {
-  /* grid-area: maintain-section; */
+  grid-area: maintain-section;
   background-color: var(--secondary-accent-color);
 }
 
 .audience-growth-section {
-  /* grid-area: audience-growth-section; */
+  grid-area: audience-growth-section;
   background-color: var(--tertiary-neutral-color);
 }
 
 .grow-follwers-section {
-  /* grid-area: grow-follwers-section; */
+  grid-area: grow-follwers-section;
   background-color: var(--primary-accent-color);
-}
+} */

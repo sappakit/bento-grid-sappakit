@@ -21,96 +21,141 @@
 
   <body class="bg-[#F5F5F5]">
     <main
-      class="main-layout grid grid-cols-12 grid-rows-10 gap-8 px-36 py-20 h-screen"
+      class="main-layout grid grid-cols-12 grid-rows-10 gap-8 px-36 py-[4.5rem] h-screen"
     >
       <!-- Create section -->
-      <section class="create-section col-span-3 row-span-5">
-        <h2>Create and schedule content quicker.</h2>
+      <section
+        class="create-section col-span-3 row-span-5 flex flex-col justify-center items-center gap-5 p-7 rounded-xl overflow-hidden bg-[var(--secondary-neutral-color)]"
+      >
+        <h2 class="text-4xl leading-8 tracking-tighter">
+          Create and schedule content
+          <span class="italic text-[var(--primary-accent-color)]"
+            >quicker.</span
+          >
+        </h2>
         <a href=""
           ><img
-            class="h-5"
+            class="w-44"
             src="./assets/images/illustration-create-post.webp"
             alt="create post button"
         /></a>
       </section>
 
       <!-- Heading section -->
-      <section class="heading-section col-span-6 row-span-4">
-        <h1 class="text-2xl">Social Media 10x Faster with AI</h1>
-        <img
-          class="h-5"
-          src="./assets/images/illustration-five-stars.webp"
-          alt="five star image"
-        />
-        <p>Over 4,000 5-star reviews</p>
+      <section
+        class="heading-section col-span-6 row-span-4 flex flex-col justify-center items-center gap-5 p-7 overflow-hidden text-[var(--tertiary-neutral-color)] rounded-xl bg-[var(--primary-accent-color)]"
+      >
+        <h1 class="text-center text-5xl">
+          Social Media
+          <span class="text-[var(--secondary-accent-color)]">10x</span> <br />
+          <span class="italic">Faster</span> with AI
+        </h1>
+        <div
+          class="website-rating flex flex-col justify-center items-center gap-1"
+        >
+          <img
+            class="w-40"
+            src="./assets/images/illustration-five-stars.webp"
+            alt="five star image"
+          />
+          <p>Over 4,000 5-star reviews</p>
+        </div>
       </section>
 
       <!-- Schedule section -->
-      <section class="schedule-section col-span-3 row-span-7">
-        <h2>Schedule to social media.</h2>
+      <section
+        class="schedule-section relative col-span-3 row-span-7 flex flex-col justify-center gap-5 p-7 rounded-xl overflow-hidden bg-[var(--primary-neutral-color)]"
+      >
+        <h2 class="z-10 text-2xl leading-5">Schedule to social media.</h2>
         <img
-          class="h-5"
+          class="w-80 max-w-none"
           src="./assets/images/illustration-schedule-posts.webp"
           alt="schedule posts image"
         />
+        <p class="z-10 leading-4">
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
       </section>
 
       <!-- Manage section -->
-      <section class="manage-section col-span-3 row-span-3">
+      <section
+        class="manage-section col-span-3 row-span-3 flex flex-col justify-center gap-3 p-5 rounded-xl overflow-hidden bg-[var(--tertiary-neutral-color)]"
+      >
         <img
-          class="h-5"
+          class="w-72 max-w-none"
           src="./assets/images/illustration-multiple-platforms.webp"
           alt="multiple platforms image"
         />
-        <h2>Manage multiple accounts and platforms.</h2>
+        <h2 class="text-2xl leading-6">
+          Manage <br />
+          multiple accounts and platforms.
+        </h2>
       </section>
 
       <!-- Maintain section -->
-      <section class="maintain-section manage-section col-span-3 row-span-3">
-        <h2>Maintain a consistent posting schedule.</h2>
+      <section
+        class="maintain-section col-span-3 row-span-3 flex flex-col items-center gap-3 p-5 rounded-xl overflow-hidden bg-[var(--secondary-accent-color)]"
+      >
+        <h2 class="text-2xl leading-6">
+          Maintain a consistent posting schedule.
+        </h2>
         <img
-          class="h-5"
+          class="w-44 max-w-none"
           src="./assets/images/illustration-consistent-schedule.webp"
           alt="consistent schedule image"
         />
       </section>
 
       <!-- Write content section -->
-      <section class="write-content-section col-span-3 row-span-5">
-        <h2>Write your content using AI.</h2>
+      <section
+        class="write-content-section col-span-3 row-span-5 flex flex-col justify-center items-center gap-9 p-6 rounded-xl overflow-hidden bg-[var(--secondary-accent-color)]"
+      >
+        <h2 class="text-3xl leading-8">
+          Write your content <br />
+          using AI.
+        </h2>
         <img
-          class="h-5"
+          class="w-44"
           src="./assets/images/illustration-ai-content.webp"
           alt="ai content image"
         />
       </section>
 
       <!-- Audience growth section -->
-      <section class="audience-growth-section col-span-3 row-span-3">
-        <h2>>56%</h2>
-        <h2>faster audience growth</h2>
+      <section
+        class="audience-growth-section col-span-3 row-span-3 flex flex-col justify-center gap-5 p-5 rounded-xl overflow-hidden bg-[var(--tertiary-neutral-color)]"
+      >
+        <div class="audience-growth-text flex flex-col gap-1">
+          <h2 class="text-5xl">>56%</h2>
+          <h2>faster audience growth</h2>
+        </div>
         <img
-          class="h-5"
+          class="w-40"
           src="./assets/images/illustration-audience-growth.webp"
           alt="audience growth image"
         />
       </section>
 
       <!-- Grow follwers section -->
-      <section class="grow-follwers-section col-span-6 row-span-3">
+      <section
+        class="grow-follwers-section col-span-6 row-span-3 flex flex-row justify-center items-center gap-3 p-5 rounded-xl overflow-hidden bg-[var(--primary-accent-color)]"
+      >
         <img
-          class="h-5"
+          class="w-48"
           src="./assets/images/illustration-grow-followers.webp"
           alt="grow followers image"
         />
-        <h2>Grow followers with non-stop content.</h2>
+        <h2 class="text-3xl leading-8 text-[var(--tertiary-neutral-color)]">
+          Grow followers with non-stop content.
+        </h2>
       </section>
     </main>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
