@@ -27,169 +27,175 @@
   </head>
 
   <body class="bg-[#F5F5F5]">
-    <main
-      class="main-layout lg:h-screen grid grid-cols-1 grids-rows-auto gap-8 px-4 py-7 mx-auto max-w-[23rem] lg:grid-cols-12 lg:grid-rows-10 lg:px-32 lg:py-[4.5rem] lg:max-w-screen-2xl"
-    >
-      <!-- Heading section -->
-      <section
-        class="heading-section h-72 p-8 gap-5 flex flex-col justify-center items-center rounded-xl overflow-hidden text-[var(--tertiary-neutral-color)] bg-[var(--primary-accent-color)] lg:col-span-6 lg:row-span-4 lg:p-7 lg:h-full lg:order-2 transition-transform duration-300 hover:scale-105 active:scale-95 group"
+    <div class="page-layout relative flex flex-col items-center">
+      <main
+        class="main-layout lg:h-[100vh] grid grid-cols-1 grids-rows-auto gap-8 px-4 pt-7 pb-14 mx-auto max-w-[23rem] lg:grid-cols-12 lg:grid-rows-10 lg:px-32 lg:py-[4.5rem] lg:max-w-screen-2xl"
       >
-        <h1
-          class="text-center text-[2.75rem] leading-10 font-[500] lg:text-[3.5rem] lg:leading-[3.25rem]"
+        <!-- Heading section -->
+        <section
+          class="heading-section h-72 p-8 gap-5 flex flex-col justify-center items-center rounded-xl overflow-hidden text-[var(--tertiary-neutral-color)] bg-[var(--primary-accent-color)] lg:col-span-6 lg:row-span-4 lg:p-7 lg:h-full lg:order-2 transition-transform duration-300 hover:scale-105 active:scale-95 group"
         >
-          Social Media
-          <span class="text-[var(--secondary-accent-color)]">10x</span>
-          <br class="hidden lg:inline" />
-          <span class="italic">Faster</span> <br class="inline lg:hidden" />
-          with AI
-        </h1>
-        <div
-          class="website-rating flex flex-col justify-center items-center gap-1"
+          <h1
+            class="text-center text-[2.75rem] leading-10 font-[500] lg:text-[3.5rem] lg:leading-[3.25rem]"
+          >
+            Social Media
+            <span class="text-[var(--secondary-accent-color)]">10x</span>
+            <br class="hidden lg:inline" />
+            <span class="italic">Faster</span> <br class="inline lg:hidden" />
+            with AI
+          </h1>
+          <div
+            class="website-rating flex flex-col justify-center items-center gap-1"
+          >
+            <img
+              class="w-44 lg:w-[18vh] transition-transform duration-300 group-hover:scale-110 group-active:scale-95"
+              src="./assets/images/illustration-five-stars.webp"
+              alt="five star image"
+            />
+            <p class="text-lg font-extralight lg:text-base">
+              Over 4,000 5-star reviews
+            </p>
+          </div>
+        </section>
+
+        <!-- Manage section -->
+        <section
+          class="manage-section h-44 p-4 gap-5 flex flex-col justify-center rounded-xl overflow-hidden bg-[var(--tertiary-neutral-color)] lg:h-full lg:col-span-3 lg:row-span-3 lg:gap-3 lg:p-5 lg:order-4 transition-transform duration-300 hover:scale-105 active:scale-95 group"
         >
           <img
-            class="w-44 lg:w-[18vh] transition-transform duration-300 group-hover:scale-110 group-active:scale-95"
-            src="./assets/images/illustration-five-stars.webp"
-            alt="five star image"
+            class="w-80 max-w-none lg:w-72 transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-multiple-platforms.webp"
+            alt="multiple platforms image"
           />
-          <p class="text-lg font-extralight lg:text-base">
-            Over 4,000 5-star reviews
-          </p>
-        </div>
-      </section>
+          <h2 class="text-2xl leading-6 tracking-tighter font-semibold">
+            Manage <br class="hidden lg:inline" />
+            multiple <br class="hidden lg:inline" />
+            accounts and <br class="hidden lg:inline" />
+            platforms.
+          </h2>
+        </section>
 
-      <!-- Manage section -->
-      <section
-        class="manage-section h-44 p-4 gap-5 flex flex-col justify-center rounded-xl overflow-hidden bg-[var(--tertiary-neutral-color)] lg:h-full lg:col-span-3 lg:row-span-3 lg:gap-3 lg:p-5 lg:order-4 transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <img
-          class="w-80 max-w-none lg:w-72 transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-multiple-platforms.webp"
-          alt="multiple platforms image"
-        />
-        <h2 class="text-2xl leading-6 tracking-tighter font-semibold">
-          Manage <br class="hidden lg:inline" />
-          multiple <br class="hidden lg:inline" />
-          accounts and <br class="hidden lg:inline" />
-          platforms.
-        </h2>
-      </section>
-
-      <!-- Maintain section -->
-      <section
-        class="maintain-section h-56 p-5 gap-4 flex flex-col rounded-xl overflow-hidden bg-[var(--secondary-accent-color)] lg:h-full lg:col-span-3 lg:row-span-3 lg:order-5 transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <h2 class="text-2xl leading-6 tracking-tighter font-semibold">
-          Maintain a <br class="hidden lg:inline" />
-          consistent <br class="hidden lg:inline" />
-          posting <br class="hidden lg:inline" />
-          schedule.
-        </h2>
-        <img
-          class="w-52 max-w-none lg:w-[20vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-consistent-schedule.webp"
-          alt="consistent schedule image"
-        />
-      </section>
-
-      <!-- Schedule section -->
-      <section
-        class="schedule-section h-[29rem] p-4 gap-6 flex flex-col justify-center items-center rounded-xl overflow-hidden bg-[var(--primary-neutral-color)] lg:h-full lg:col-span-3 lg:row-span-7 lg:items-start lg:gap-5 lg:p-7 lg:order-3 transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <h2
-          class="text-2xl leading-7 tracking-tighter font-semibold lg:text-3xl lg:leading-7"
+        <!-- Maintain section -->
+        <section
+          class="maintain-section h-56 p-5 gap-4 flex flex-col rounded-xl overflow-hidden bg-[var(--secondary-accent-color)] lg:h-full lg:col-span-3 lg:row-span-3 lg:order-5 transition-transform duration-300 hover:scale-105 active:scale-95 group"
         >
-          Schedule to <br class="hidden lg:inline" />
-          social media.
-        </h2>
-        <img
-          class="w-[19rem] max-w-none lg:w-[31vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-schedule-posts.webp"
-          alt="schedule posts image"
-        />
-        <p
-          class="text-lg leading-5 text-center font-medium lg:text-base lg:leading-4 lg:text-left"
-        >
-          Optimize post timings to publish content at the perfect time for
-          <br class="inline lg:hidden" />
-          your audience.
-        </p>
-      </section>
+          <h2 class="text-2xl leading-6 tracking-tighter font-semibold">
+            Maintain a <br class="hidden lg:inline" />
+            consistent <br class="hidden lg:inline" />
+            posting <br class="hidden lg:inline" />
+            schedule.
+          </h2>
+          <img
+            class="w-52 max-w-none lg:w-[20vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-consistent-schedule.webp"
+            alt="consistent schedule image"
+          />
+        </section>
 
-      <!-- Grow follwers section -->
-      <section
-        class="grow-follwers-section h-[23rem] p-5 gap-8 flex flex-col justify-center items-center rounded-xl overflow-hidden bg-[var(--primary-accent-color)] lg:h-full lg:col-span-6 lg:row-span-3 lg:flex-row lg:justify-start lg:gap-5 lg:order-8 transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <img
-          class="w-[14.5rem] lg:w-[22vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-grow-followers.webp"
-          alt="grow followers image"
-        />
-        <h2
-          class="text-3xl leading-7 text-center tracking-tight font-semibold text-[var(--tertiary-neutral-color)] lg:leading-8 lg:text-left"
+        <!-- Schedule section -->
+        <section
+          class="schedule-section h-[29rem] p-4 gap-6 flex flex-col justify-center items-center rounded-xl overflow-hidden bg-[var(--primary-neutral-color)] lg:h-full lg:col-span-3 lg:row-span-7 lg:items-start lg:gap-5 lg:p-7 lg:order-3 transition-transform duration-300 hover:scale-105 active:scale-95 group"
         >
-          Grow followers <br />
-          with non-stop <br />
-          content.
-        </h2>
-      </section>
-
-      <!-- Audience growth section -->
-      <section
-        class="audience-growth-section h-64 p-5 gap-5 flex flex-col justify-center rounded-xl overflow-hidden bg-[var(--tertiary-neutral-color)] lg:col-span-3 lg:row-span-3 lg:order-7 lg:h-full transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <div class="audience-growth-text flex flex-col">
-          <h2 class="text-[3.5rem] font-semibold">>56%</h2>
-          <h2 class="text-base tracking-tight">faster audience growth</h2>
-        </div>
-        <img
-          class="w-44 max-w-none lg:w-[10rem] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-audience-growth.webp"
-          alt="audience growth image"
-        />
-      </section>
-
-      <!-- Create section -->
-      <section
-        class="create-section h-56 p-9 gap-6 flex flex-col justify-center rounded-xl overflow-hidden bg-[var(--secondary-neutral-color)] lg:h-full lg:p-7 lg:col-span-3 lg:row-span-5 lg:gap-5 lg:order-1 transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <h2
-          class="text-3xl leading-7 tracking-tighter font-semibold lg:text-4xl lg:leading-8"
-        >
-          Create and schedule content
-          <span class="italic text-[var(--primary-accent-color)]"
-            >quicker.</span
+          <h2
+            class="text-2xl leading-7 tracking-tighter font-semibold lg:text-3xl lg:leading-7"
           >
-        </h2>
-        <img
-          class="w-48 max-w-none lg:w-[19vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-create-post.webp"
-          alt="create post button"
-        />
-      </section>
+            Schedule to <br class="hidden lg:inline" />
+            social media.
+          </h2>
+          <img
+            class="w-[19rem] max-w-none lg:w-[31vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-schedule-posts.webp"
+            alt="schedule posts image"
+          />
+          <p
+            class="text-lg leading-5 text-center font-medium lg:text-base lg:leading-4 lg:text-left"
+          >
+            Optimize post timings to publish content at the perfect time for
+            <br class="inline lg:hidden" />
+            your audience.
+          </p>
+        </section>
 
-      <!-- Write content section -->
-      <section
-        class="write-content-section h-[22rem] p-6 gap-6 flex flex-col justify-around rounded-xl overflow-hidden bg-[var(--secondary-accent-color)] lg:h-full lg:gap-9 lg:col-span-3 lg:row-span-5 lg:order-6 transition-transform duration-300 hover:scale-105 active:scale-95 group"
-      >
-        <h2
-          class="text-3xl leading-7 tracking-tighter font-semibold lg:text-4xl lg:leading-8"
+        <!-- Grow follwers section -->
+        <section
+          class="grow-follwers-section h-[23rem] p-5 gap-8 flex flex-col justify-center items-center rounded-xl overflow-hidden bg-[var(--primary-accent-color)] lg:h-full lg:col-span-6 lg:row-span-3 lg:flex-row lg:justify-start lg:gap-5 lg:order-8 transition-transform duration-300 hover:scale-105 active:scale-95 group"
         >
-          Write your <br class="hidden lg:inline" />
-          content <br />
-          using AI.
-        </h2>
-        <img
-          class="w-[13.75rem] max-w-none lg:w-[20vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
-          src="./assets/images/illustration-ai-content.webp"
-          alt="ai content image"
-        />
-      </section>
-    </main>
+          <img
+            class="w-[14.5rem] lg:w-[22vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-grow-followers.webp"
+            alt="grow followers image"
+          />
+          <h2
+            class="text-3xl leading-7 text-center tracking-tight font-semibold text-[var(--tertiary-neutral-color)] lg:leading-8 lg:text-left"
+          >
+            Grow followers <br />
+            with non-stop <br />
+            content.
+          </h2>
+        </section>
 
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+        <!-- Audience growth section -->
+        <section
+          class="audience-growth-section h-64 p-5 gap-5 flex flex-col justify-center rounded-xl overflow-hidden bg-[var(--tertiary-neutral-color)] lg:col-span-3 lg:row-span-3 lg:order-7 lg:h-full transition-transform duration-300 hover:scale-105 active:scale-95 group"
+        >
+          <div class="audience-growth-text flex flex-col">
+            <h2 class="text-[3.5rem] font-semibold">>56%</h2>
+            <h2 class="text-base tracking-tight">faster audience growth</h2>
+          </div>
+          <img
+            class="w-44 max-w-none lg:w-[10rem] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-audience-growth.webp"
+            alt="audience growth image"
+          />
+        </section>
+
+        <!-- Create section -->
+        <section
+          class="create-section h-56 p-9 gap-6 flex flex-col justify-center rounded-xl overflow-hidden bg-[var(--secondary-neutral-color)] lg:h-full lg:p-7 lg:col-span-3 lg:row-span-5 lg:gap-5 lg:order-1 transition-transform duration-300 hover:scale-105 active:scale-95 group"
+        >
+          <h2
+            class="text-3xl leading-7 tracking-tighter font-semibold lg:text-4xl lg:leading-8"
+          >
+            Create and schedule content
+            <span class="italic text-[var(--primary-accent-color)]"
+              >quicker.</span
+            >
+          </h2>
+          <img
+            class="w-48 max-w-none lg:w-[19vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-create-post.webp"
+            alt="create post button"
+          />
+        </section>
+
+        <!-- Write content section -->
+        <section
+          class="write-content-section h-[22rem] p-6 gap-6 flex flex-col justify-around rounded-xl overflow-hidden bg-[var(--secondary-accent-color)] lg:h-full lg:gap-9 lg:col-span-3 lg:row-span-5 lg:order-6 transition-transform duration-300 hover:scale-105 active:scale-95 group"
+        >
+          <h2
+            class="text-3xl leading-7 tracking-tighter font-semibold lg:text-4xl lg:leading-8"
+          >
+            Write your <br class="hidden lg:inline" />
+            content <br />
+            using AI.
+          </h2>
+          <img
+            class="w-[13.75rem] max-w-none lg:w-[20vh] transition-transform duration-300 group-hover:scale-105 group-active:scale-95"
+            src="./assets/images/illustration-ai-content.webp"
+            alt="ai content image"
+          />
+        </section>
+      </main>
+
+      <div class="attribution absolute bottom-0 p-3">
+        Challenge by
+        <a href="https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/sappakit"
+          >Sappakit Pipitwattana</a
+        >.
+      </div>
+    </div>
   </body>
 </html>
