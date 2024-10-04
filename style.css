@@ -7,7 +7,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-@font-face {
+/* @font-face {
   font-family: "DMSans";
   src: url("./assets/fonts/static/DMSans-Regular.ttf") format("truetype"),
     url("./assets/fonts/static/DMSans-Medium.ttf") format("truetype")
@@ -18,7 +18,7 @@
       format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 :root {
   --bg-color: #f5f5f5;
@@ -30,7 +30,7 @@
 }
 
 body {
-  font-family: "DMSans";
+  font-family: "DM Sans", sans-serif;
 }
 /* 
 .main-layout {
