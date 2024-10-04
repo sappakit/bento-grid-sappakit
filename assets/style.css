@@ -1,0 +1,21 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --bg-color: #f5f5f5;
+  --primary-accent-color: #7651dc;
+  --secondary-accent-color: #ffcc69;
+  --primary-neutral-color: #dcd1fc;
+  --secondary-neutral-color: #faeee2;
+  --tertiary-neutral-color: white;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
